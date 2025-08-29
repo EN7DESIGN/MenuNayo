@@ -321,6 +321,11 @@ hr{
         background: Colors("Primary","03");
         color: Colors("Black","01");
     }
+    // Primary 04
+    .Primary04{
+        background: Colors("Primary","04");
+        color: Colors("White","01");
+    }
     // Black 01
     .Black01{
         background: Colors("Black","01");
@@ -331,10 +336,20 @@ hr{
         background: Colors("LightGrey","01");
         color: Colors("Black","01");
     }
+    // LightGrey 02
+    .LightGrey02{
+        background: Colors("LightGrey","02");
+        color: Colors("Black","01");
+    }
     // White 01
     .White01{
         background: Colors("White","01");
         color: Colors("Black","01");
+    }
+    // Alerte 01
+    .Alerte01{
+        background: Colors("Alerte","01");
+        color: Colors("White","01");
     }
 // -------------------------
 

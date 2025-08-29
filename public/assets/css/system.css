@@ -229,11 +229,11 @@
 html {
   font-family: "Body";
   font-size: 16px;
-  color: #000000;
+  color: #111111;
 }
 
 body {
-  background-color: #F4F4F4;
+  background-color: #E9E9E9;
 }
 
 hr {
@@ -257,8 +257,8 @@ hr {
   max-width: 1034px;
   border-radius: 30px;
   background-color: #FFFFFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
 }
 
 .Content {
@@ -410,8 +410,8 @@ hr {
   padding: 64px;
   border-radius: 30px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
 }
 
 .Sect-Colors .Content {
@@ -439,8 +439,8 @@ hr {
           align-items: flex-start;
   border-radius: 8px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
   width: 100%;
   max-width: 146px;
 }
@@ -478,33 +478,48 @@ hr {
 }
 
 .Primary {
-  background: #0D3CF9;
+  background: #F7A500;
   color: #FFFFFF;
 }
 
 .Primary02 {
-  background: #072CC1;
+  background: #D99100;
   color: #FFFFFF;
 }
 
 .Primary03 {
-  background: #D6DEFF;
-  color: #000000;
+  background: #f9ca6c;
+  color: #111111;
+}
+
+.Primary04 {
+  background: #97680b;
+  color: #FFFFFF;
 }
 
 .Black01 {
-  background: #000000;
+  background: #111111;
   color: #FFFFFF;
 }
 
 .LightGrey01 {
-  background: #F4F4F4;
-  color: #000000;
+  background: #E9E9E9;
+  color: #111111;
+}
+
+.LightGrey02 {
+  background: #D4D4D4;
+  color: #111111;
 }
 
 .White01 {
   background: #FFFFFF;
-  color: #000000;
+  color: #111111;
+}
+
+.Alerte01 {
+  background: #FF0000;
+  color: #FFFFFF;
 }
 
 .Sect-Shadows {
@@ -524,8 +539,8 @@ hr {
   padding: 64px;
   border-radius: 30px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
 }
 
 .Sect-Shadows .Content {
@@ -563,38 +578,38 @@ hr {
 }
 
 .xxsmall {
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(17, 17, 17, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(17, 17, 17, 0.05);
 }
 
 .xsmall {
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 1px 3px 0 rgba(17, 17, 17, 0.1);
 }
 
 .small {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
 }
 
 .medium {
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(17, 17, 17, 0.15);
+          box-shadow: 0 4px 8px 0 rgba(17, 17, 17, 0.15);
 }
 
 .large {
-  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 8px 16px 0 rgba(17, 17, 17, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(17, 17, 17, 0.2);
 }
 
 .xlarge {
-  -webkit-box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 16px 32px 0 rgba(17, 17, 17, 0.25);
+          box-shadow: 0 16px 32px 0 rgba(17, 17, 17, 0.25);
 }
 
 .xxlarge {
-  -webkit-box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 32px 64px 0 rgba(17, 17, 17, 0.3);
+          box-shadow: 0 32px 64px 0 rgba(17, 17, 17, 0.3);
 }
 
 .Sect-Util {
@@ -614,8 +629,8 @@ hr {
   padding: 64px;
   border-radius: 30px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
 }
 
 .Sect-Util .Content {
@@ -634,11 +649,11 @@ hr {
   gap: 22px;
   width: 300px;
   padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(17, 17, 17, 0.3);
   border-radius: 8px;
   background-color: #FFFFFF;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(17, 17, 17, 0.15);
+          box-shadow: 0 4px 8px 0 rgba(17, 17, 17, 0.15);
 }
 /* Conteneur principal */
 .Input {
@@ -653,7 +668,7 @@ hr {
 .Input input[type=text], .Input [type=email] {
   width: 100%;
   padding: 12px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(17, 17, 17, 0.3);
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; /* S'assure que le padding n'augmente pas la largeur totale */
@@ -661,25 +676,25 @@ hr {
   transition: all 0.3s ease;
 }
 .Input input[type=text]::-webkit-input-placeholder, .Input [type=email]::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .Input input[type=text]::-moz-placeholder, .Input [type=email]::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .Input input[type=text]:-ms-input-placeholder, .Input [type=email]:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .Input input[type=text]::-ms-input-placeholder, .Input [type=email]::-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .Input input[type=text]::placeholder, .Input [type=email]::placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .Input input[type=text]:focus, .Input [type=email]:focus {
-  border-color: #0D3CF9; /* Change la couleur de la bordure */
+  border-color: #F7A500; /* Change la couleur de la bordure */
   outline: none; /* Supprime la bordure de focus par défaut du navigateur */
-  -webkit-box-shadow: 0 2px 4px 0 rgba(13, 60, 249, 0.3);
-          box-shadow: 0 2px 4px 0 rgba(13, 60, 249, 0.3); /* Ajoute un halo de couleur */
+  -webkit-box-shadow: 0 2px 4px 0 rgba(247, 165, 0, 0.3);
+          box-shadow: 0 2px 4px 0 rgba(247, 165, 0, 0.3); /* Ajoute un halo de couleur */
 }
 
 /* Styles pour le conteneur principal */
@@ -696,7 +711,7 @@ hr {
 .InputSelect select {
   width: 100%;
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(17, 17, 17, 0.3);
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -712,13 +727,13 @@ hr {
   transition: all 0.3s ease;
 }
 .InputSelect select option[disabled] {
-  color: #F4F4F4;
+  color: #E9E9E9;
 }
 .InputSelect select:focus {
-  border-color: #0D3CF9;
+  border-color: #F7A500;
   outline: none;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(13, 60, 249, 0.3);
-          box-shadow: 0 2px 4px 0 rgba(13, 60, 249, 0.3);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(247, 165, 0, 0.3);
+          box-shadow: 0 2px 4px 0 rgba(247, 165, 0, 0.3);
 }
 
 /* Styles pour le conteneur principal */
@@ -737,7 +752,7 @@ hr {
   width: 100%;
   height: 150px; /* Définit la hauteur initiale du textarea */
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(17, 17, 17, 0.3);
   border-radius: 4px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -746,25 +761,25 @@ hr {
   transition: border-color 0.3s ease;
 }
 .TextArea textarea::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .TextArea textarea::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .TextArea textarea:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .TextArea textarea::-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .TextArea textarea::placeholder {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(17, 17, 17, 0.6);
 }
 .TextArea textarea:focus {
-  border-color: #0D3CF9; /* Change la couleur de la bordure */
+  border-color: #F7A500; /* Change la couleur de la bordure */
   outline: none; /* Supprime la bordure de focus par défaut du navigateur */
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3); /* Ajoute un halo de couleur */
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.3);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.3); /* Ajoute un halo de couleur */
 }
 
 .Sect-Buttons {
@@ -784,8 +799,8 @@ hr {
   padding: 64px;
   border-radius: 30px;
   background: #FFFFFF;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.1);
 }
 .Sect-Buttons .Content {
   width: 100%;
@@ -831,7 +846,7 @@ a:focus {
 .Button01 {
   text-align: center;
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #111111;
   border: none;
   border-radius: 6px;
   -webkit-box-sizing: border-box;
@@ -855,14 +870,14 @@ a:focus {
   pointer-events: none;
 }
 .Button01:hover {
-  background-color: #072CC1;
-  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  background-color: #D99100;
+  -webkit-box-shadow: 0 8px 15px rgba(17, 17, 17, 0.4);
+          box-shadow: 0 8px 15px rgba(17, 17, 17, 0.4);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
 .Button01:active {
-  background-color: #072CC1;
+  background-color: #D99100;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transform: scale(0.8);
@@ -870,16 +885,16 @@ a:focus {
 }
 
 .Button01.tape01 {
-  background-color: #000000;
-  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  background-color: #111111;
+  -webkit-box-shadow: 0 8px 15px rgba(17, 17, 17, 0.4);
+          box-shadow: 0 8px 15px rgba(17, 17, 17, 0.4);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
 
 /* ⚠️ A utiliser que si le boutton à un changement de couleur au hover */
 .is-touch-device .Button01:hover {
-  background-color: #0D3CF9;
+  background-color: #F7A500;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transform: none;
@@ -902,17 +917,17 @@ a:focus {
 
 /*---------------------*/
 .Button01.Primary {
-  background-color: #0D3CF9;
+  background-color: #F7A500;
 }
 .Button01.Primary:hover {
-  background-color: #072CC1;
-  -webkit-box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
-          box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
+  background-color: #D99100;
+  -webkit-box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
+          box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
 .Button01.Primary:active {
-  background-color: #072CC1;
+  background-color: #D99100;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transform: scale(0.8);
@@ -920,33 +935,33 @@ a:focus {
 }
 
 .Button01.Primary.tape01 {
-  background-color: #072CC1;
-  -webkit-box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
-          box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
+  background-color: #D99100;
+  -webkit-box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
+          box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
 }
 
 .Button01.Secondary {
   background-color: #FFFFFF;
-  border: 1px solid #0d3cf9;
-  color: #0D3CF9;
+  border: 1px solid #f7a500;
+  color: #F7A500;
 }
 .Button01.Secondary:hover {
-  background-color: rgba(13, 60, 249, 0.2);
-  -webkit-box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
-          box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
+  background-color: rgba(247, 165, 0, 0.2);
+  -webkit-box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
+          box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
 }
 
 .Button01.Secondary.tape01 {
-  background-color: rgba(13, 60, 249, 0.2);
-  -webkit-box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
-          box-shadow: 0 8px 15px rgba(7, 44, 193, 0.4);
+  background-color: rgba(247, 165, 0, 0.2);
+  -webkit-box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
+          box-shadow: 0 8px 15px rgba(217, 145, 0, 0.4);
 }
 
 /* Stylisation */
 .Button02 {
-  color: #000000;
+  color: #111111;
   background: #FFFFFF;
-  border: 1px solid #000000;
+  border: 1px solid #111111;
   border-radius: 6px;
   position: relative;
   overflow: hidden;
@@ -1002,7 +1017,7 @@ a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #111111;
   -webkit-transition: -webkit-transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
   transition: -webkit-transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
   transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
@@ -1066,26 +1081,26 @@ a:focus {
 }
 
 .Button02.Primary {
-  background: #0D3CF9;
+  background: #F7A500;
   color: #FFFFFF;
-  border: 1px solid #0D3CF9;
+  border: 1px solid #F7A500;
 }
 .Button02.Primary:after {
-  background-color: #051f8a;
+  background-color: #97680b;
 }
 
 .Button02.Primary:hover:after {
-  background-color: #051f8a;
+  background-color: #97680b;
 }
 
 .Button02.Secondary {
-  color: #0D3CF9;
-  border: 1px solid #0D3CF9;
+  color: #F7A500;
+  border: 1px solid #F7A500;
 }
 .Button02.Secondary:after {
-  background-color: #0D3CF9;
+  background-color: #F7A500;
 }
 
 .Button02.Secondary:hover:after {
-  background-color: #0D3CF9;
+  background-color: #F7A500;
 }/*# sourceMappingURL=system.css.map */

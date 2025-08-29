@@ -11,22 +11,30 @@
 //--- Variables Colors ---
     $Colors: (
         "Primary":(
-            "01": #0D3CF9,
-            "02": #072CC1,
-            "03": #D6DEFF,
-            "04": #051f8a,
+            "01": #F7A500,
+            "02": #D99100,
+            "03": #f9ca6c,
+            "04": #97680b,
         ),
         //Black
-        "Black": ("01": #000000,
+        "Black": (
+            "01": #111111,
         ),
 
         //LightGrey
-        "LightGrey":("01": #F4F4F4,
+        "LightGrey":(
+            "01": #E9E9E9,
+            "02": #D4D4D4,
         ),
 
         //White
-        "White":("01": #FFFFFF,
-        )
+        "White":(
+            "01": #FFFFFF,
+        ),
+        //Alerte
+        "Alerte":(
+            "01": #FF0000,
+        ),
     );
 
     //Fonction pour appler les couleurs
