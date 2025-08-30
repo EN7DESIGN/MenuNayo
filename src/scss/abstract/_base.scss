@@ -8,3 +8,17 @@
     margin: 0;
     padding: 0; 
 }
+// Font --------
+    //Roboto
+    @font-face {
+            font-family: 'Body';
+            src: url('/public/font/Roboto-VariableFont.ttf') format('truetype');
+            font-weight: 100 900; //Plage de poids pour le font variable
+            font-style: normal;
+        }
+//-----------------
+html{
+    font-family: 'Body';
+    font-size: 16px;
+    color: Colors("Black","01"); 
+}
