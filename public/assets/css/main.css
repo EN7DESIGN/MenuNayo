@@ -13,4 +13,8 @@ html {
   font-family: "Body";
   font-size: 16px;
   color: #111111;
+}
+
+section {
+  background-color: Colors("Black", "01");
 }/*# sourceMappingURL=main.css.map */
